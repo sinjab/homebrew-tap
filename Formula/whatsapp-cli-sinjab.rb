@@ -1,8 +1,8 @@
 class WhatsappCliSinjab < Formula
   desc "WhatsApp from your terminal (sinjab fork: canonical, actively maintained)"
   homepage "https://github.com/sinjab/whatsapp-cli"
-  url "https://github.com/sinjab/whatsapp-cli/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "48d9f70c03059e3c2f970622876c7ea9f57fcb338a6c5287ecb1acc5f0a0f7f8"
+  url "https://github.com/sinjab/whatsapp-cli/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "c1d6e89a68dff32f80f0c5f8eb8168a84e8b2e5c3f50e62f6bed9798262ea1b2"
   license "MIT"
 
   depends_on "go" => :build
@@ -13,6 +13,6 @@ class WhatsappCliSinjab < Formula
   end
 
   test do
-    assert_match "1.1.1", shell_output("#{bin}/whatsapp --version")
+    assert_match "1.2.0", shell_output("#{bin}/whatsapp --version")
   end
 end
