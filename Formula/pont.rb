@@ -1,8 +1,8 @@
 class Pont < Formula
   desc "WhatsApp from your terminal (born from whatsapp-cli, MIT, (c) Edd Mann)"
   homepage "https://github.com/sinjab/pont"
-  url "https://github.com/sinjab/pont/archive/refs/tags/v2.2.0.tar.gz"
-  sha256 "1036333cee447fe3373abb50ede84e59f91cacd79416edea9e6c5a3aae533252"
+  url "https://github.com/sinjab/pont/archive/refs/tags/v2.3.0.tar.gz"
+  sha256 "a9a6f356b81a5eb46822d064081095e51dfed69b42f7fe45fa40c13e937980a7"
   license "MIT"
 
   depends_on "go" => :build
